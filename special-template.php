@@ -8,7 +8,7 @@
 Template Name: Special Layout
 */
 
-/* When on a "Page" this template will be used insted of the index.php, since it is now defined.*/
+/* This template can explicitly be set on pages and posts as the template. */
 
 get_header();
 

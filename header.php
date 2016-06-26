@@ -34,6 +34,7 @@
   </head>
 
   <body <?php body_class(); ?> id="top">
+    <?php include('partials/svgspritesheet.php'); ?>
     <header>
       <?php include('partials/navigation.php'); ?>
     </header>
