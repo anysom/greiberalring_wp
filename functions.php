@@ -14,6 +14,9 @@ register_nav_menus(array(
   'footer' => __('Footer Menu')
 ));
 
+//Require library of custom functions
+require_once('lib.php');
+
 // Get id of top most page ancestor
 /*function get_top_ancestor_id() {
 
@@ -39,5 +42,4 @@ function has_children() {
   $pages = get_pages('child_of=' . $post->ID);
   return count($pages);
 }*/
-
 ?>
