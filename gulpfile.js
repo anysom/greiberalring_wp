@@ -38,8 +38,8 @@ var preprocessor = null;
 /********************************************************/
 /* Settings */
 var settings = {
-    localhost:          'http://localhost:9000/greiberalring/',
-    baseDir:            'greiberalring_wp/',
+    localhost:          'http://local.greiberalring:9000/',
+    baseDir:            '',
     scriptsDir:         'scripts/',
     siteScriptsFolder:  'source/',
     appStartFile:       'app.js',
