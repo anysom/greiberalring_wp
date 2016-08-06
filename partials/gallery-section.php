@@ -15,7 +15,7 @@
                 <?php
                 foreach ($gallery->images as $image) {?>
                   <div class="gallery__image-container col-xs-6 col-sm-3 col-md-2">
-                  <a class="fancybox" href="<?php echo get_field('image', $image->ID); ?>" data-fancybox-group="gallery-aladdin">
+                  <a class="fancybox" href="<?php echo get_field('image', $image->ID); ?>" data-fancybox-group="gallery-<?php echo $gallery->id ?>">
                     <?php echo wp_get_attachment_image($image->thumbnail, 'large');?>
                   </a>
                 </div>
